@@ -1,0 +1,115 @@
+/* ------------------------------------------
+  NAVIGATION STYLES
+  (+ responsive-nav.css file is loaded in the <head>)
+--------------------------------------------- */
+
+.nav-collapse {
+    z-index: 999;
+    position: relative;
+    background: #e3672a;
+    box-shadow: #333 0 0 10px;
+    font-size: 0;
+}
+
+.nav-collapse ul {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-collapse ul li {}
+
+.nav-collapse ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-shadow: 2px 2px #c95b00;
+    border-top: 1px solid #e5763f;
+    border-bottom: 1px solid #c95b00;
+}
+
+.nav-collapse ul li a:hover {
+    background-color: #c95b00;
+    text-shadow: 2px 2px #e3672a;
+}
+
+@media screen and (min-width: 50em) {
+    .nav-collapse ul {
+        height: 50px;
+    }
+    .nav-collapse ul li {
+        width: 130px;
+        height: 50px;
+        display: inline-block;
+    }
+    .nav-collapse ul li a {
+        border-top: none;
+        border-bottom: none;
+    }
+}
+
+
+/* ------------------------------------------
+  NAV TOGGLE STYLES
+--------------------------------------------- */
+
+@font-face {
+    font-family: "responsivenav";
+    src: url("demos/icons/responsivenav.eot");
+    src: url("demos/icons/responsivenav.eot?#iefix") format("embedded-opentype"), url("demos/icons/responsivenav.ttf") format("truetype"), url("demos/icons/responsivenav.woff") format("woff"), url("demos/icons/responsivenav.svg#responsivenav") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-toggle {
+    position: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    /*text-indent: -999px;*/
+    position: relative;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.nav-toggle:before {
+    color: #e3672a;
+    /* Edit this to change the icon color */
+    font-family: "responsivenav", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 24px;
+    text-transform: none;
+    position: absolute;
+    content: "≡";
+    text-indent: 0;
+    text-align: center;
+    line-height: 60px;
+    speak: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-toggle.active::before {
+    font-size: 24px;
+    content: "x";
+}
+
+@media (max-width: 600px) {
+    .nav-toggle {
+        margin-top: 4px;
+    }
+}

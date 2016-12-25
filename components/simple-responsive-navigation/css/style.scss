@@ -1,0 +1,138 @@
+// Colours
+$color:rgb(200,0,50);
+
+
+
+
+/* =Nav
+-------------------------------------------------------------- */
+#nav-trigger {
+	display:none;
+	text-align:center;
+	span {
+		display:inline-block;
+		padding:10px 30px;
+		background-color:$color;
+		color:rgb(255,255,255);
+		cursor:pointer;
+		text-transform: uppercase;
+		&:after {
+			display:inline-block;
+			margin-left:10px;
+			width:20px;
+			height:10px;
+			content:"";
+			border-left:solid 10px transparent;
+			border-top:solid 10px #fff;
+			border-right:solid 10px transparent;
+		}
+		&:hover {
+			background-color:darken($color, 5%);
+		}
+		&.open:after {
+			border-left:solid 10px transparent;
+			border-top:none;
+			border-bottom:solid 10px #fff;
+			border-right:solid 10px transparent;
+		}
+	}
+}
+nav {
+	margin-bottom:30px;
+}
+nav#nav-main {
+	background-color:$color;
+	padding:10px 0;
+	ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
+	li {
+		display:inline-block;
+		border-right:solid 1px darken($color, 10%);
+		padding:0 5px;
+		&:last-child {
+			border-right:none;
+		}
+	}
+	a {
+		display:block;
+		color:rgb(255,255,255);
+		padding:10px 30px;
+		&:hover {
+			background-color:darken($color, 5%);
+			color:#fff;
+		}
+	}
+}
+nav#nav-mobile {
+	position:relative;
+	display:none;
+	ul {
+		display:none;
+		list-style-type:none;
+		position:absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+		text-align:center;
+		background-color:$color;
+	}
+	li {
+		display:block;
+		padding:5px 0;
+		margin:0 5px;
+		border-bottom:solid 1px darken($color, 10%);
+		&:last-child {
+			border-bottom:none;
+		}
+	}
+	a {
+		display:block;
+		color:rgb(255,255,255);
+		padding:10px 30px;
+		&:hover {
+			background-color:darken($color, 5%);
+			color:#fff;
+		}
+	}
+}
+
+
+
+/* =Sections
+-------------------------------------------------------------- */
+section {
+	
+}
+section h1 {
+	margin-bottom:10px;
+}
+section p {
+	margin-bottom:30px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+
+
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+	
+	#nav-trigger {
+		display:block;
+	}
+	nav#nav-main {
+		display:none;
+	}
+	nav#nav-mobile {
+		display: block;
+	}
+
+}
