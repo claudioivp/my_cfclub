@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16px" height="16px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 16 16"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#C52F33}
+    .fil1 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="2.50878" y1="8" x2="13.4924" y2="8">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F27572"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#ED3237"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M4 0l8 0c1,0 2,1 2,2l0 12c0,1 -1,2 -2,2l-8 0c-1,0 -2,-1 -2,-2l0 -12c0,-1 1,-2 2,-2z"/>
+  <path class="fil1" d="M4 1l8 0c1,0 1,0 1,1l0 12c0,1 0,1 -1,1l-8 0c-1,0 -1,0 -1,-1l0 -12c0,-1 0,-1 1,-1z"/>
+ </g>
+</svg>

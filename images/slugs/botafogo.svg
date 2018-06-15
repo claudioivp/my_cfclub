@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 847 847"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black;fill-rule:nonzero}
+    .fil1 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="Botafogo_de_Futebol_e_Regatas.eps">
+   <path class="fil0" d="M223 56l1 -1c-45,26 -85,40 -123,44l-62 6 0 62c0,299 118,521 349,661l35 21 1 0 35 -21c227,-137 344,-353 349,-644l0 -79 -62 -6c-38,-4 -79,-18 -123,-44 -64,-37 -133,-57 -200,-57 -66,0 -135,20 -200,58z"/>
+   <path class="fil1" d="M238 80l0 0c-48,28 -92,43 -135,47l-36 4 0 36c0,288 113,503 336,636l20 13 21 -13c222,-133 335,-348 335,-636l0 -36 -36 -4c-42,-4 -86,-19 -134,-47 -60,-35 -124,-54 -186,-54 -61,0 -125,19 -185,54z"/>
+   <path class="fil0" d="M423 66c57,0 114,18 166,49 53,30 102,47 151,52 0,275 -106,476 -317,602 -210,-126 -316,-327 -316,-602 48,-5 98,-22 151,-52 52,-31 109,-49 165,-49z"/>
+   <polygon class="fil1" points="195,298 336,400 282,567 423,464 565,567 510,400 652,298 477,298 423,132 369,298 "/>
+  </g>
+ </g>
+</svg>

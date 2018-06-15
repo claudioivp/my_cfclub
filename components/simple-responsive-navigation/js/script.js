@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $("#nav-mobile").html($("#nav-main").html());
     $("#nav-trigger span").click(function(){
         if ($("nav#nav-mobile ul").hasClass("expanded")) {
@@ -10,5 +11,4 @@ $(document).ready(function(){
         }
     });
 
-    $('.tabs').scrollToFixed();
 });

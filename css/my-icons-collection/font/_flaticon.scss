@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 18/11/2016 02:18
+    Creation date: 14/07/2017 19:35
     */
 
     @font-face {
@@ -36,12 +36,38 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-arrows:before { content: "\f100"; }
-.flaticon-interface:before { content: "\f101"; }
-.flaticon-list:before { content: "\f102"; }
-.flaticon-resize:before { content: "\f103"; }
+    .flaticon-sort-by-attributes-interface-button-option:before { content: "\f100"; }
+.flaticon-waste-bin:before { content: "\f101"; }
+.flaticon-right-arrow-circular-button:before { content: "\f102"; }
+.flaticon-arrow-down-sign-to-navigate:before { content: "\f103"; }
+.flaticon-tool:before { content: "\f104"; }
+.flaticon-folded-newspaper:before { content: "\f105"; }
+.flaticon-arrows:before { content: "\f106"; }
+.flaticon-list:before { content: "\f107"; }
+.flaticon-soccer-ball-variant:before { content: "\f108"; }
+.flaticon-interface:before { content: "\f109"; }
+.flaticon-multimedia:before { content: "\f10a"; }
+.flaticon-twitter-logo-button:before { content: "\f10b"; }
+.flaticon-home-icon-silhouette:before { content: "\f10c"; }
+.flaticon-light-bulb:before { content: "\f10d"; }
+.flaticon-resize:before { content: "\f10e"; }
+.flaticon-update-arrow:before { content: "\f10f"; }
+.flaticon-facebook-logo-button:before { content: "\f110"; }
     
-    $font-Flaticon-arrows: "\f100";
-    $font-Flaticon-interface: "\f101";
-    $font-Flaticon-list: "\f102";
-    $font-Flaticon-resize: "\f103";
+    $font-Flaticon-sort-by-attributes-interface-button-option: "\f100";
+    $font-Flaticon-waste-bin: "\f101";
+    $font-Flaticon-right-arrow-circular-button: "\f102";
+    $font-Flaticon-arrow-down-sign-to-navigate: "\f103";
+    $font-Flaticon-tool: "\f104";
+    $font-Flaticon-folded-newspaper: "\f105";
+    $font-Flaticon-arrows: "\f106";
+    $font-Flaticon-list: "\f107";
+    $font-Flaticon-soccer-ball-variant: "\f108";
+    $font-Flaticon-interface: "\f109";
+    $font-Flaticon-multimedia: "\f10a";
+    $font-Flaticon-twitter-logo-button: "\f10b";
+    $font-Flaticon-home-icon-silhouette: "\f10c";
+    $font-Flaticon-light-bulb: "\f10d";
+    $font-Flaticon-resize: "\f10e";
+    $font-Flaticon-update-arrow: "\f10f";
+    $font-Flaticon-facebook-logo-button: "\f110";
