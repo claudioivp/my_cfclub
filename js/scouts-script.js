@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 
     getScoutsApiUri = function(url){
-        return "/scouts-ao-vivo/api" + url.replace("http://" + location.host + "/scouts-ao-vivo/rodada", "")
+        return "/scouts-ao-vivo/api" + url.replace("https://" + location.host + "/scouts-ao-vivo/rodada", "")
     };
 
 	bindPageData = function(data){
