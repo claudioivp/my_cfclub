@@ -219,7 +219,7 @@ $(document).ready(function() {
 	createTimer = function(){
 		timer = setTimeout(function() {
 			updater()
-		}, 1000 * 5);
+		}, 1000 * 30);
 	};
 
 	updater = function(){
